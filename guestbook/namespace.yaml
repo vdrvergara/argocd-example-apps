@@ -1,7 +1,0 @@
-kind: Namespace
-apiVersion: v1
-metadata:
-  name: guestbook
-  labels:
-    kubernetes.io/metadata.name: guestbook
-
