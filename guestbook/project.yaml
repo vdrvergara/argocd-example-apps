@@ -1,0 +1,12 @@
+kind: Project
+apiVersion: project.openshift.io/v1
+metadata:
+  name: guestbook
+  labels:
+    kubernetes.io/metadata.name: guestbook
+  annotations:
+    openshift.io/description: 'Guestbook'
+    openshift.io/display-name: Guestbook
+spec:
+  finalizers:
+    - kubernetes
